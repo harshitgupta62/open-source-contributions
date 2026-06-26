@@ -1,36 +1,68 @@
-# 🌐 Open Source Software Engineering Portfolio
-A curated portfolio tracking my core engineering contributions, robust input validation implementations, schema enhancements, and DevOps pipelines across major open-source ecosystems.
+# 🌐 Open Source Engineering Portfolio
+
+This repository documents my open-source contributions to real-world software projects. It includes merged and ongoing pull requests across C++, DevOps, and media tooling projects, with a focus on input validation, schema compatibility, and CI/CD improvements.
 
 ---
 
-## 🚀 Contributions Log
+# 📊 Summary
 
-| Organization / Project | Pull Request Focus | Status | Core Focus & Tech Stack |
-| :--- | :--- | :--- | :--- |
-| **p4lang** / `behavioral-model` | [#1409](https://github.com/p4lang/behavioral-model/pull/1409) | ✅ Merged | **CI/CD & DevOps:** Patched broken automated Doxygen build steps and sanitized repository documentation. |
-| **OpenTimelineIO** / `raven` | [#161](https://github.com/OpenTimelineIO/raven/pull/161) | 🔄 Active | **Schema & UI Integration:** Integrating official OTIO Clip Color metadata schemas for media timelines. |
-| **XRPLF** / `rippled` | [#7606](https://github.com/XRPLF/rippled/pull/7606) | 🔄 Review | **Input Validation:** Implementing strict `fetch_info` clear parameter type validation. |
-| **XRPLF** / `rippled` | [#7583](https://github.com/XRPLF/rippled/pull/7583) | 🔄 Review | **Input Validation:** Hardening feature handlers against missing vetoed parameter type validation. |
-| **XRPLF** / `rippled` | [#7582](https://github.com/XRPLF/rippled/pull/7582) | 🔄 Review | **Security & Logic:** Implementing channel ID and signature validation logic. |
-| **XRPLF** / `rippled` | [#7589](https://github.com/XRPLF/rippled/pull/7589) | 🔄 Review | **Input Validation:** Fixing edge cases for missing peer parameter type safety rules. |
-| **XRPLF** / `rippled` | [#7595](https://github.com/XRPLF/rippled/pull/7595) | 🔄 Review | **Input Validation:** Resolving missing severity and partition parameter validation checks. |
-| **XRPLF** / `rippled` | [#7590](https://github.com/XRPLF/rippled/pull/7590) | 🔄 Review | **Input Validation:** Standardizing missing account/ident parameter type checking routines. |
+- ✅ **1 Merged Pull Request**
+- 🟡 **7 Pull Requests Under Review**
+- 🏢 **Organizations Contributed To**
+  - P4Lang
+  - OpenTimelineIO (Academy Software Foundation)
+  - XRPLF (XRP Ledger Foundation)
+
+**Primary Technologies:** C++, Git, GitHub, GitHub Actions, JSON, CI/CD
 
 ---
 
-## 🛠️ Core Engineering Impact
+# 🚀 Contributions
 
-### 🔒 Defensive Programming & Input Validation (`XRPLF/rippled`)
-* **Robust Type Checking:** Securing core RPC components across 6 distinct subsystems by implementing strict data-type assertions (e.g., `if (!params[jss::channel_id].isString()) return rpcError(rpcINVALID_PARAMS);`). This hardens decentralized ledger architecture nodes against unvalidated, malformed client payload execution profiles.
-* **API Reliability:** Minimizing system edge-case crashes by comprehensively testing and validating nested parameters such as `peer`, `vetoed`, `severity`, and `partition` within active feature handler loops.
-
-### 🎨 Media Pipeline Schema Design (`OpenTimelineIO/raven`)
-* **Industry Compliance:** Extending timeline visualization components within the Academy Software Foundation's OpenTimelineIO environment to correctly process, read, and display native Clip Color properties.
-
-### ⚙️ DevOps & Pipeline Automation (`p4lang/behavioral-model`)
-* **Workflow Optimization:** Troubleshooting and fixing broken continuous deployment checkpoints inside live GitHub Action workflows by isolating failing cloud storage integration steps.
+| Organization / Project | Pull Request | Status | Description |
+| :--- | :---: | :---: | :--- |
+| **P4Lang / behavioral-model** | [#1409](https://github.com/p4lang/behavioral-model/pull/1409) | ✅ Merged | Removed obsolete `bmv2.org` references from the documentation and updated the CI workflow by removing a failing S3 upload step. |
+| **OpenTimelineIO / raven** | [#161](https://github.com/OpenTimelineIO/raven/pull/161) | 🟡 Under Review | Updating Raven to support the official OTIO Clip Color schema while maintaining compatibility with legacy metadata. |
+| **XRPLF / rippled** | [#7606](https://github.com/XRPLF/rippled/pull/7606) | 🟡 Under Review | Added missing type validation for the `fetch_info` `clear` parameter. |
+| **XRPLF / rippled** | [#7583](https://github.com/XRPLF/rippled/pull/7583) | 🟡 Under Review | Added validation for the `vetoed` parameter in feature handlers. |
+| **XRPLF / rippled** | [#7582](https://github.com/XRPLF/rippled/pull/7582) | 🟡 Under Review | Added validation for `channel_id` and signature-related parameters. |
+| **XRPLF / rippled** | [#7589](https://github.com/XRPLF/rippled/pull/7589) | 🟡 Under Review | Added validation for missing `peer` parameter edge cases. |
+| **XRPLF / rippled** | [#7595](https://github.com/XRPLF/rippled/pull/7595) | 🟡 Under Review | Added validation for `severity` and `partition` parameters. |
+| **XRPLF / rippled** | [#7590](https://github.com/XRPLF/rippled/pull/7590) | 🟡 Under Review | Standardized validation for `account` and `ident` parameters. |
 
 ---
 
-## 🚀 Navigation
-* The active dashboard ledger snapshot reflecting these contributions can be referenced via historical tracking filters. Click directly on any pull request index link in the table above to review code deltas, testing feedback, and ongoing architectural code reviews.
+# 💡 Skills Demonstrated
+
+- Modern C++
+- Open Source Collaboration
+- Git & GitHub Workflow
+- Pull Request Reviews
+- Defensive Programming
+- Input Validation
+- JSON Handling
+- CI/CD & GitHub Actions
+- Documentation Improvements
+- Schema Compatibility
+
+---
+
+# 📌 Areas of Contribution
+
+### 🔒 Input Validation (XRPLF/rippled)
+
+Submitted multiple pull requests improving RPC input validation by adding missing parameter type checks and strengthening error handling for malformed requests.
+
+### 🎨 Schema Compatibility (OpenTimelineIO/raven)
+
+Contributed support for the official OpenTimelineIO Clip Color schema while preserving backward compatibility with Raven's existing metadata format.
+
+### ⚙️ CI/CD & Documentation (P4Lang/behavioral-model)
+
+Improved project documentation by removing obsolete references and updated the CI workflow to eliminate a failing deployment step caused by an unavailable external service.
+
+---
+
+# 🔗 Navigation
+
+Each pull request listed above links directly to the corresponding GitHub discussion, code changes, reviews, and CI results.
