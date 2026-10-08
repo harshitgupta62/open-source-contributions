@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 6" width="1000" height="6" role="img" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="flow" x1="0" y1="0" x2="500" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat"><stop offset="0" stop-color="#58a6ff"/><stop offset=".33" stop-color="#a371f7"/><stop offset=".66" stop-color="#f778ba"/><stop offset="1" stop-color="#58a6ff"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="500 0" dur="5s" repeatCount="indefinite"/></linearGradient></defs>
+<style></style>
+<rect width="1000" height="6" rx="3" fill="url(#flow)"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs></defs>
+<style></style>
+<rect x=".5" y=".5" width="999" height="329" rx="18" fill="#0d1117" stroke="#30363d"/>
+<text x="500" y="38" text-anchor="middle" font-size="14" fill="#8b949e">Every request is type-checked before it can touch any state</text>
+<rect x="24" y="122" width="130" height="76" rx="14" fill="#161b22" stroke="#58a6ff" stroke-width="1.6"/>
+<text x="89" y="154" text-anchor="middle" font-size="15" font-weight="700" fill="#c9d1d9">RPC request</text>
+<text x="89" y="176" text-anchor="middle" font-size="12" fill="#8b949e">JSON params</text>
+<path d="M154,160 H442" stroke="#58a6ff" stroke-opacity=".5" stroke-dasharray="5 7" stroke-width="2"/>
+<path d="M558,160 L778,95" stroke="#3fb950" stroke-opacity=".5" stroke-dasharray="5 7" stroke-width="2"/>
+<path d="M558,160 L778,225" stroke="#f85149" stroke-opacity=".5" stroke-dasharray="5 7" stroke-width="2"/>
+<circle cx="500" cy="160" r="76" fill="none" stroke="#a371f7" stroke-opacity=".45" stroke-dasharray="4 9"><animateTransform attributeName="transform" type="rotate" from="0 500 160" to="360 500 160" dur="24s" repeatCount="indefinite"/></circle>
+<g opacity="0" fill="#3fb950"><circle cx="500" cy="160" r="72"/><animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;.55;0;0" keyTimes="0;0.18;0.2;0.3;1"/></g>
+<g opacity="0" fill="#f85149"><circle cx="500" cy="160" r="72"/><animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;.55;0;0" keyTimes="0;0.65;0.67;0.77;1"/></g>
+<polygon points="558.0,160.0 529.0,210.2 471.0,210.2 442.0,160.0 471.0,109.8 529.0,109.8" fill="#161b22" stroke="#a371f7" stroke-width="2.5"/>
+<text x="500" y="166" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="18" font-weight="700" fill="#d2a8ff">isBool()</text>
+<text x="500" y="260" text-anchor="middle" font-size="13" fill="#8b949e">type check</text>
+<rect x="800" y="55" width="176" height="80" rx="14" fill="#161b22" stroke="#3fb950" stroke-width="1.8"/>
+<g opacity="0" fill="#3fb950"><rect x="800" y="55" width="176" height="80" rx="14"/><animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;.55;0;0" keyTimes="0;0.37;0.39;0.5;1"/></g>
+<text x="888" y="93" text-anchor="middle" font-size="16" font-weight="700" fill="#3fb950">Handler runs</text>
+<text x="888" y="116" text-anchor="middle" font-size="12" fill="#8b949e">valid input only</text>
+<rect x="800" y="185" width="176" height="80" rx="14" fill="#161b22" stroke="#f85149" stroke-width="1.8"/>
+<g opacity="0" fill="#f85149"><rect x="800" y="185" width="176" height="80" rx="14"/><animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;.55;0;0" keyTimes="0;0.84;0.86;0.97;1"/></g>
+<text x="888" y="223" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="16" font-weight="700" fill="#f85149">invalidParams</text>
+<text x="888" y="246" text-anchor="middle" font-size="12" fill="#8b949e">clear error, no side effects</text>
+<g opacity="0"><rect x="-78.0" y="-16" width="156" height="32" rx="9" fill="#0d1117" stroke="#3fb950" stroke-width="1.8"/><text y="5" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#3fb950">{ "clear": true }</text><animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.03;0.19;1" path="M240.0,160 L358.0,160"/><animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.03;0.042;0.178;0.19;1"/></g>
+<g opacity="0"><circle r="16" fill="#3fb950"/><path d="M-6,0 L-2,5 L7,-5" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.19;0.38;1" path="M574,156 L778,95"/><animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.19;0.202;0.368;0.38;1"/></g>
+<g opacity="0"><rect x="-92.0" y="-16" width="184" height="32" rx="9" fill="#0d1117" stroke="#e3b341" stroke-width="1.8"/><text y="5" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#e3b341">{ "clear": "false" }</text><animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5;0.66;1" path="M254.0,160 L344.0,160"/><animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5;0.512;0.648;0.66;1"/></g>
+<g opacity="0"><circle r="16" fill="#f85149"/><path d="M-5,-5 L5,5 M5,-5 L-5,5" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.66;0.85;1" path="M574,164 L778,225"/><animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.66;0.672;0.838;0.85;1"/></g>
+<text x="500" y="308" text-anchor="middle" font-size="13" fill="#8b949e">Before: asBool() silently coerced the string "false" to true. After: wrong types are rejected with a clear error.</text>
+</svg>
